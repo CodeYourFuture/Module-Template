@@ -21,10 +21,10 @@ body:
     label: How to Submit
     description: State in clear steps how a trainee can submit this assignment.
     placeholder: |
-      1. Fork the repo to your own GitHub account
-      2. Make regular small commits with clear messages
-      3. When you are ready, open a Pull Request to the CYF repo
-      4. Make sure you fill in the PR template provided
+      Fork the repo to your own GitHub account
+      Make regular small commits with clear messages
+      When you are ready, open a Pull Request to the CYF repo
+      Make sure you fill in the PR template provided
   validations:
     required: true
 - type: textarea
