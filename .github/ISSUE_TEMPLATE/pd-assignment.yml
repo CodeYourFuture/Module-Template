@@ -43,9 +43,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        "## Thank you so much." 
+        **Thank you so much.**
 
         Please now complete this ticket by filling in the options on the sidebar.
+
         1. Update labels
         - priority -- is this coursework key, mandatory, or stretch?
         - size -- help trainees plan their time with rough estimation
