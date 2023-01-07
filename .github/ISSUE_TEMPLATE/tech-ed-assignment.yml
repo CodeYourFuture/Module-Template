@@ -6,21 +6,35 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to assign this coursework!
+        Thanks for taking the time to assign this coursework! To support our trainees with planning and prioritising their own learning journey, we want our coursework assignments to be more informative. 
+        We don't just want to tell them what to do, we want to tell them stuff like:
+        - why we are doing it
+        - what it's "for" (problem-solving, debugging, etc)
+        - how long they should spend on it, maximum
+        - how to get help 
+        - how to review it with answers 
+        - how to get it reviewed from mentors and peers
   - type: input
     attributes:
       label: Link to the coursework
     validations:
       required: true
-  - type: input
-    attributes:
-      label: Estimated time in hours (Tech has max 16 per week total)
   - type: textarea
     attributes:
-      label: What is the point of this assignment?
-      description: Clearly explain the purpose of this assignment and how trainees can evaluate this.
+      label: Why are we doing this?
+      description: Clearly explain the purpose of this assignment
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Maximum time in hours (Tech has max 16 per week total)
+  - type: textarea
+    attributes:
+      label: How to get help
+      description: State simply how trainees can get help with this assignment
+      placeholder: |
+        Share your blockers in your class channel
+        https://syllabus.codeyourfuture.io/guides/asking-questions
   - type: textarea
     attributes:
       label: How to submit
@@ -32,6 +46,10 @@ body:
         Make sure you fill in the PR template provided
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: How to review
+      description: How to get code review and how to self-review
   - type: textarea
     attributes:
       label: Anything else?
