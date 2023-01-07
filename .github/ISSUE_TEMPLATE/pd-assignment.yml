@@ -1,7 +1,7 @@
-name: Tech Ed Coursework
-description: Assign a piece of technical coursework
-title: "[TECH ED] <title>"
-labels: [Tech Ed, 🏕 Priority Mandatory, 🐂 Size Medium]
+name: PD Coursework
+description: Assign a piece of PD coursework
+title: "[PD] <title>"
+labels: [PD, 🏝 Priority Stretch, 🐇 Size Small]
 body:
   - type: markdown
     attributes:
@@ -14,7 +14,9 @@ body:
       required: true
   - type: input
     attributes:
-      label: Estimated time in hours (Tech has max 16 per week total)
+      label: Estimated time in hours (PD has max 4 per week total)
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: What is the point of this assignment?
@@ -26,10 +28,9 @@ body:
       label: How to submit
       description: State in clear steps how a trainee can submit this assignment.
       placeholder: |
-        Fork the repo to your own GitHub account
-        Make regular small commits with clear messages
-        When you are ready, open a Pull Request to the CYF repo
-        Make sure you fill in the PR template provided
+        Copy the Google doc to your own Google Drive
+        Complete the work assigned
+        When you are ready, move your document to your class Drive
     validations:
       required: true
   - type: textarea
@@ -42,7 +43,8 @@ body:
   - type: markdown
     attributes:
       value: |
-         "## Thank you so much." 
+        "## Thank you so much." 
+
         Please now complete this ticket by filling in the options on the sidebar.
         1. Update labels
         - priority -- is this coursework key, mandatory, or stretch?
