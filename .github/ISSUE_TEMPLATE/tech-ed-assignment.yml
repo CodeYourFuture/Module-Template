@@ -2,8 +2,6 @@ name: Tech Ed Coursework
 description: Assign a piece of technical coursework
 title: "[TECH ED] <title>"
 labels: [Tech Ed, 🏕 Priority Mandatory, 🐂 Size Medium]
-projects: HTML-CSS Backlog (TEST)
-milestone: Week 1
 body:
   - type: markdown
     attributes:
