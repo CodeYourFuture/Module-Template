@@ -1,50 +1,54 @@
-name: Coursework
-description: Assign a piece of coursework
+name: Tech Ed Coursework
+description: Assign a piece of technical coursework
 title: "[TECH ED] <title>"
-labels: [Tech Ed]
+labels: [Tech Ed, 🏕 Priority Mandatory, 🐂 Size Medium]
 body:
-- type: markdown
-  attributes:
-    value: |
-      Thanks for taking the time to assign this coursework! If you prefer, you can fill in the markdown template.
-- type: input
-  attributes:
-    label: Link to the coursework
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: What is the point of this assignment?
-    description: Clearly explain the purpose of this assignment and how trainees can evaluate this.
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: How to Submit
-    description: State in clear steps how a trainee can submit this assignment.
-    placeholder: |
-      Fork the repo to your own GitHub account
-      Make regular small commits with clear messages
-      When you are ready, open a Pull Request to the CYF repo
-      Make sure you fill in the PR template provided
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Anything else?
-    description: |
-      Links? References? Anything that will give more context
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to assign this coursework!
+  - type: input
+    attributes:
+      label: Link to the coursework
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What is the point of this assignment?
+      description: Clearly explain the purpose of this assignment and how trainees can evaluate this.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: How to submit
+      description: State in clear steps how a trainee can submit this assignment.
+      placeholder: |
+        Fork the repo to your own GitHub account
+        Make regular small commits with clear messages
+        When you are ready, open a Pull Request to the CYF repo
+        Make sure you fill in the PR template provided
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give more context
 
-      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.   
-- type: markdown
-  attributes:
-    value: |
-      Thank you so much. 
-      Please now complete this issue by filling in the custom fields on the issue sidebar.
-      Show all the custom fields available.
-      - priority: is this coursework key, mandatory, or stretch?
-      - size : help trainees plan their time with rough estimation
-      - hours : (Tech Ed sets a maximum of 16 hours mandatory per week and unlimited stretch)
-      - week : assign the ticket to week 1, 2, 3, or 4
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  - type: markdown
+    attributes:
+      value: |
+        Thank you so much. 
+        Please now complete this ticket by filling in the options on the sidebar.
+        Add labels
+        - priority: is this coursework key, mandatory, or stretch?
+        - size : help trainees plan their time with rough estimation
+        Add to milestone
+        - week 1,2,3,4
+        Add to project
+        - named the same as this repo
 
-      Once your ticket is complete, add it to the example project board attached to this repo.
+        Once your ticket is complete, you may like to present it on the example project board attached to this repo
+        by completing the custom fields there.
+        This is so you understand how trainees will use your work.
