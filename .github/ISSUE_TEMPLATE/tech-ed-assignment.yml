@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to assign this coursework! To support our trainees with planning and prioritising their own learning journey, we want our coursework assignments to be more informative. 
+        Thanks for taking the time to assign this coursework! 
+
+        To support our trainees with planning and prioritising their own learning journey, we want our coursework assignments to be more informative. 
         We don't just want to tell them what to do, we want to tell them stuff like:
         - why we are doing it
         - what it's "for" (problem-solving, debugging, etc)
@@ -28,6 +30,8 @@ body:
   - type: input
     attributes:
       label: Maximum time in hours (Tech has max 16 per week total)
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: How to get help
@@ -65,13 +69,11 @@ body:
         Please now complete this ticket by filling in the options on the sidebar.
 
         1. Update labels
-        - priority -- is this coursework key, mandatory, or stretch?
-        - size -- help trainees plan their time with rough estimation
+        - priority -- is this coursework key, mandatory, or stretch? Pick one.
+        - size -- help trainees plan their time with rough estimation. Pick one
+        - topics -- add all that seem relevant to you. 
         2. Add to milestone
         - week 1,2,3,4
-        3. Add to project backlog
-        - add to the project named the same as this repo
-        - fill in custom fields -- priority, size, hours -- to match this issue
 
-        Once your ticket is complete, you may like to check it out on the example project board attached to this repo.
-        This is so you understand how trainees will use your work.
+        Once your ticket is complete, you may like to add it to the example project board attached to this repo.
+        This is so you understand how trainees will use your work. Nobody has built a board copier yet, so trainees will be doing this step themselves.
