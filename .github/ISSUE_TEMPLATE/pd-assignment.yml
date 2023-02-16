@@ -19,7 +19,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: What is the point of this assignment?
+      label: What is the purpose of this assignment?
       description: Clearly explain the purpose of this assignment and how trainees can evaluate this.
     validations:
       required: true
