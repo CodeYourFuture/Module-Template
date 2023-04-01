@@ -14,7 +14,8 @@ body:
       required: true
   - type: input
     attributes:
-      label: Estimated time in hours (PD has max 4 per week total)
+      label: Estimated time in hours
+      description: (PD has max 4 per week total)
     validations:
       required: true
   - type: textarea
