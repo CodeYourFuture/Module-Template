@@ -29,7 +29,8 @@ body:
       required: true
   - type: input
     attributes:
-      label: Maximum time in hours (Tech has max 16 per week total)
+      label: Maximum time in hours
+      description: (Tech has max 16 per week total)
     validations:
       required: true
   - type: textarea
