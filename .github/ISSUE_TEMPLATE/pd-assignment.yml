@@ -9,7 +9,7 @@ body:
         Thanks for taking the time to assign this coursework!
   - type: input
     attributes:
-      label: Link to the coursework
+      label: Coursework content
     validations:
       required: true
   - type: input
