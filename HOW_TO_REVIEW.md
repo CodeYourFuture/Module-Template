@@ -36,25 +36,11 @@ Reviewers, please add labels (provided) to the PR once you've reviewed. This hel
 
 ### Where to find solutions?
 
-Add `-Solution` to the end of a repo url to find the solution.
+You can find the solutions for the module on the `solutions` branch.
 
-For this repo:
+### Solutions branch
 
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1
-
-Find the solution here:
-
-https://github.com/CodeYourFuture/JavaScript-Core-1-Coursework-Week1-Solution
-
-**_If you get a 404_**
-
-**Mentors:** Join your Github Team - ask in Slack or look in the pinned posts in the top of your channel.
-
-**Trainees** get solution repos one week later. Ask your mentors in Slack if you are getting a 404.
-
-### Using the Solutions Repo
-
-Solutions repo typically contain:
+The solutions branch typically contains:
 
 #### Sample solutions
 
