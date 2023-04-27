@@ -1,36 +1,32 @@
 <!--
 
-The title for your pull request should be made in this format
+You must title your PR like this:
 
-CITY CLASS_NO - FIRST_NAME LAST_NAME - MODULE - WEEK_NO
+COHORT_NAME | FIRST_NAME LAST_NAME | REPO_NAME
 
 For example,
 
-London Class 7 - Chris Owen - HTML/CSS - Week 1
+NW4 | Carol Owen | HTML-CSS-Coursework-Week1
 
-Please complete the details below this message
+Complete the task list below this message.
+If your PR is rejected, check the task list.
 
 -->
 
-**Volunteers: Are you marking this coursework?** _You can find a guide on how to mark this coursework in `HOW_TO_MARK.md` in the root of this repository_
+## Learners, PR Template
 
-# Your Details
+Self checklist
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- [ ] I have committed my files one by one, on purpose, and for a reason
+- [ ] I have titled my PR with COHORT_NAME | FIRST_NAME LAST_NAME | REPO_NAME
+- [ ] I have tested my changes
+- [ ] My changes follow the [style guide](https://syllabus.codeyourfuture.io/guides/code-style-guide/)
+- [ ] My changes meet the [requirements](./README.md) of this task
 
-# Homework Details
+## Changelist
 
-- Module:
-- Week:
+Briefly explain your PR.
 
-# Notes
+## Questions
 
-- What did you find easy?
-
-- What did you find hard?
-
-- What do you still not understand?
-
-- Any other notes?
+Ask any questions you have for your reviewer.
