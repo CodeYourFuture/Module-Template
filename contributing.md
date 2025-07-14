@@ -6,15 +6,13 @@ Repo: https://github.com/CodeYourFuture/Module-Template
 
 # How To Submit Your Coursework
 
-Use Git & Github to submit your coursework as a pull request.
+Use Git & GitHub to submit your coursework as a pull request.
 
-The Github Desktop cheatsheet will help you.
+Follow the template when creating your pull request.
 
-[Github Desktop Cheatsheet](http://syllabus.codeyourfuture.io/git/cheatsheet)
+Make sure to follow the checklist, and fill in all questions (or remove unnecessary sections).
 
-This module will help you submit your coursework.
-
-[Git](http://syllabus.codeyourfuture.io/git/index)
+ Make sure to add the "Needs Review" label, or you won't get review.
 
 ## Questions & Help
 
@@ -22,4 +20,6 @@ Contributing to a remote codebase is a necessary skill for a professional develo
 
 If you cannot submit your coursework you **must** post on Slack to get unblocked.
 
-[How to get help](./HOW-TO-GET-HELP.md)
+## Adding/editing exercises
+
+If you want to add/edit exercises, please create a PR to this repo. You can ignore the template. You probably want to send a message in #cyf-curriculum on Slack to draw someone's attention to your edits.
