@@ -1,7 +1,7 @@
 name: Tech Ed Coursework
 description: Assign a piece of technical coursework
 title: "<title>"
-labels: [Tech Ed, 🏕 Priority Mandatory, 🐂 Size Medium, 📅 Module 1]
+labels: [Tech Ed, 🏕 Priority Mandatory, 🐂 Size Medium, 📅 Sprint 1]
 body:
   - type: markdown
     attributes:
